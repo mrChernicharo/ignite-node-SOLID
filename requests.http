@@ -1,0 +1,16 @@
+POST http://localhost:3333/users
+content-type: application/json
+
+{
+    "name":"Tom",
+    "email": "Tom@gmail.com"
+}
+
+
+###
+
+PATCH http://localhost:3333/users/0bed3e1a-c504-4727-b481-f142e94b9096/admin
+# http://localhost:3333/users/:user_id/admin
+
+
+###
